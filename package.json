@@ -1,0 +1,28 @@
+{
+  "name": "tilemap-web-editor",
+  "version": "1.0.0",
+  "description": "tilemap editor",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eagune/tilemap-web-editor.git"
+  },
+  "keywords": [
+    "tilemap",
+    "editor"
+  ],
+  "author": "Eagune",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eagune/tilemap-web-editor/issues"
+  },
+  "homepage": "https://github.com/Eagune/tilemap-web-editor#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.75.7"
+  }
+}
