@@ -1,7 +1,0 @@
-function TilemapWebEditor() {
-
-}
-
-export {
-  TilemapWebEditor
-}
