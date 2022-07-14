@@ -2,7 +2,8 @@
   "name": "tilemap-web-editor",
   "version": "1.0.0",
   "description": "tilemap editor",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
